@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>TheTransactionBank</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="corona.js"></script>
+</head>
+
+<body style="background-color:#000000;">
+  
+    
+    <div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="./viewcustomers.php">VIEW ALL CUSTOMERS </a>
+        <a href="./transferhistory.php">TRANSFER HISTORY</a>
+        <a href="contactus.html">CONTACT US </a>
+      </div>
+      
+      <span style="font-family: 'Times New Roman', Times, serif;font-size:30px;cursor:pointer;color:  #f7a000;" onclick="openNav()">&#9776; THE ABCD BANK</span>
+      
+      <hr>
+
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
+            <div class="col-12 justify-content-center">
+               <h3 style="color: #f7a000;font-family: Verdana, Geneva, Tahoma, sans-serif;">Send us your Feedback</h3>
+               <hr>
+            </div>
+        </div>
+
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"> 
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-6">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                   
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-9">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="col-12 col-sm-11 offset-sm-1">
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+                        <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                        <a role="button" class="btn btn-success" href="mailto:abcdbank.net"><i class="fa fa-envelope-o"></i> Email</a>
+                    </div>
+                </div>
+            </div>    
+       </div>
+    </div><br><br><br><br>
+
+    <footer class="footer" style="width: 100%;">
+        <div class="container">
+            <div class="row">             
+             
+                <div class="col-4 col-sm-2">
+                    <h5>OUR LOCATION</h5><br>
+                    <address style="font-size: 100%;">
+                    <br>    
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                    
+                </div>
+
+
+                <div class="col-4 col-sm-3">
+                    <h5>CONTACT US</h5><br>
+                    <address style="font-size: 100%;">
+                    <br>
+                      <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>
+                      <a href="mailto:abcdbank.net" style="color: #0b253E;"> abcdbank.net</a>
+		           </address>
+                </div>
+
+                <div class="col-4 col-sm-2">
+                    <h5>IMPORTANT LINKS</h5><br>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color:#0b253E;">Services</a></li>
+                        <li><a href="#" style="color:#0b253E;">Home</a></li>
+                        <li><a href="#" style="color:#0b253E;">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2 col-sm-5 ">
+                    <div class="text-center">
+                    
+                            <form>
+                            <h5>Sign up for developer updates</h5>
+                            <br>
+                            <div class="form-group row">
+                                <label for="emailid"></label>
+                                <div class=" offset-md-1 col-md-8">
+                                    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                                </div>
+                                <div class="col-md-0">
+                                    <button type="submit" class="btn btn-info"><i class="fa fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                           </form>
+                        
+                    </div>  
+                </div>
+           </div>
+           <div class="row justify-content-center">   
+                
+                <div class="col-auto">
+                    <br>    <br><br> 
+                    <p>© Copyright 2022 The ABCD Bank</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

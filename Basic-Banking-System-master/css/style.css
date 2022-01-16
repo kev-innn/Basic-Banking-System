@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+
+
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    background-color:black;
+    font-weight:600;
+    text-align:center !important;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-dark {
+    background-color: #f7a000;
+}
+
+
+
+
+  .jumb{
+    padding:0px 0px 0px 0px;
+    margin:0px auto;
+  }
+
+  .jumb p{
+    color: #F76C6C;
+
+  }
+
+  .jumb .first{
+    color: black;
+    text-align:justify;
+    
+  }
+.carousel {
+    background:#0c0c0c;
+}
+
+.carousel-item {
+  height: 520px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17);
+    color: rgb(48, 48, 47);
+}
+
+.our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+   
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #b580ff 0%, #2b28ee 100%)
+}
+
+.footer{
+  background-color:  #f7a000;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #0b253e;
+  position: absolute;
+  width: 98%;
+  clear: both;
+  
+}
+
+
+.footer h5{
+  color: black;
+  font-size: 20px;
+  
+}
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: rgb(17, 17, 17); 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f7a000;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.pageitem {
+  display:table;
+  width:100%;
+  margin-bottom:15px;
+  padding-top:15px;
+  text-align:center;
+}
+
+.pageitem h1 {
+  font-weight:normal;
+  color:#555;
+  margin:0;
+  text-align:left;
+}
+
+.pageitem h2 {
+  font-size:32px;
+  background-color:inherit;
+  color:#444;
+  margin-top:0;
+}
+
+.pageitem p em {
+  background-color:inherit;
+  color:#444;
+  font-size:40px;
+  font-style:normal;
+  font-weight:100;
+}
+
+.pageitem p {
+  padding:0 75px;
+  margin:0;
+  font-size:18px;
+  line-height:200%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.col {
+ align-content: flex-end;
+ 
+}
+
+.col a{
+  color:#f7a000 ;
+}
+
+
